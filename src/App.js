@@ -5,6 +5,7 @@ import Time from './components/Time';
 import Temperature from './components/Temperature';
 import './App.css';
 import UimReact from '@iconscout/react-unicons-monochrome/icons/uim-react'
+import Forecast from './components/Forecast';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <Inputs/>
       <Time/>
       <Temperature/>
+      <Forecast title="hourly forecast"/>
+      <Forecast title="daily forecast"/>
+
     </div>
   );
 }
