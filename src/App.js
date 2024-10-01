@@ -1,4 +1,3 @@
-
 import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
 import Time from './components/Time';
